@@ -16,6 +16,14 @@
 
 //wishful thinking --- whisful programing
 
-require 'functions.php';
+//function hello($who = 'Mon') {
+////opcional
+//
+//    echo 'Hola '. $who;
+//}
 
-hello('Pepe');
+require 'hello.php';
+
+hello();
+
+//wet write everything twicw
