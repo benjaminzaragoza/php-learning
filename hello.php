@@ -17,5 +17,4 @@
 //wishful thinking --- whisful programing
 
 require 'functions.php';
-
 hello('Pepe');

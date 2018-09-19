@@ -22,8 +22,7 @@
 //    echo 'Hola '. $who;
 //}
 
-require 'hello.php';
-
-hello();
+require 'functions.php';
+hello('Mon');
 
 //wet write everything twicw

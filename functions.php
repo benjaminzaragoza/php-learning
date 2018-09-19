@@ -1,11 +1,6 @@
 <?php
-
-if(!funtion_exists(function_name=='hello')){
-
-    function hello($who = 'Mon')
-    {
-//opcional
-
+if (!function_exists('hello')) {
+    function hello($who = 'Mon') {
         echo 'Hola ' . $who;
     }
 }
