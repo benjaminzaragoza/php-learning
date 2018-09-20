@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3512cf6a-b5e7-48c9-a3c9-a6b06d27271a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.php" beforeDir="false" afterPath="$PROJECT_DIR$/hello.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloTest3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorldWebTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorldWebTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +15,20 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="855641577">
       <usages-collector id="statistics.lifecycle.project">
@@ -24,8 +36,8 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,15 +45,17 @@
           <entry key="functions" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="md" value="1" />
-          <entry key="php" value="36" />
+          <entry key="php" value="44" />
+          <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Blade" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="34" />
+          <entry key="PHP" value="42" />
           <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -50,14 +64,14 @@
           <entry key="functions" value="1" />
           <entry key="gitignore" value="15" />
           <entry key="md" value="443" />
-          <entry key="php" value="1561" />
+          <entry key="php" value="2790" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="443" />
-          <entry key="PHP" value="1561" />
+          <entry key="PHP" value="2790" />
           <entry key="PLAIN_TEXT" value="49" />
         </counts>
       </usages-collector>
@@ -68,10 +82,57 @@
           <entry key="without.target.element" value="2" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b74877d1-593a-4456-8d0a-894f2ca6e2bd/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/Task.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/TestTask.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,12 +149,16 @@
         <option value="$PROJECT_DIR$/test/HelloWoldWebTest.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/hello.php" />
         <option value="$PROJECT_DIR$/test/HelloWorldTest.php" />
         <option value="$PROJECT_DIR$/views/index.blade.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/hello2.php" />
         <option value="$PROJECT_DIR$/test/HelloWorldWebTest.php" />
+        <option value="$PROJECT_DIR$/hello.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/TaskPhp.php" />
+        <option value="$PROJECT_DIR$/tasks.php" />
+        <option value="$PROJECT_DIR$/models/Task.php" />
+        <option value="$PROJECT_DIR$/test/TestTask.php" />
       </list>
     </option>
   </component>
@@ -135,11 +200,11 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="999" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="519" />
     <option name="y" value="27" />
     <option name="width" value="921" />
-    <option name="height" value="1053" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -149,13 +214,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="php-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -171,20 +240,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/autoload.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vistes" />
       <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/vistes" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -200,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.HelloTest (1)">
+  <component name="RunManager" selected="PHPUnit.HelloWorldTest.can_create_a_task_with_a_name">
     <configuration name="HelloTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="HelloTest" file="$PROJECT_DIR$/test/HelloWorldWebTest.php" scope="Class" />
       <method v="2" />
@@ -213,13 +284,25 @@
       <TestRunner class="HelloTest" file="$PROJECT_DIR$/test/HelloWorldTest.php" method="testHelloWorld" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="HelloWorldTest.can_create_a_task_with_a_name" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="HelloWorldTest" file="$PROJECT_DIR$/test/TestTask.php" method="can_create_a_task_with_a_name" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloWorldTest.tasks" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="HelloWorldTest" file="$PROJECT_DIR$/test/TestTask.php" method="tasks" scope="Method" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="PHPUnit.HelloTest" />
       <item itemvalue="PHPUnit.HelloTest.testHelloWorld" />
       <item itemvalue="PHPUnit.HelloTest (1)" />
+      <item itemvalue="PHPUnit.HelloWorldTest.tasks" />
+      <item itemvalue="PHPUnit.HelloWorldTest.can_create_a_task_with_a_name" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.HelloWorldTest.can_create_a_task_with_a_name" />
+        <item itemvalue="PHPUnit.HelloWorldTest.tasks" />
         <item itemvalue="PHPUnit.HelloTest (1)" />
         <item itemvalue="PHPUnit.HelloTest.testHelloWorld" />
         <item itemvalue="PHPUnit.HelloTest" />
@@ -240,66 +323,68 @@
       <workItem from="1537367550580" duration="5007000" />
       <workItem from="1537436184494" duration="1021000" />
       <workItem from="1537437237037" duration="24000" />
+      <workItem from="1537461378491" duration="5379000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloTest_testHelloWorld - 2018.09.19 at 16h 34m 43s.xml">
-      <configuration name="HelloTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 19h 59m 20s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_testHelloWorld - 2018.09.19 at 16h 36m 15s.xml">
-      <configuration name="HelloTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 19h 59m 51s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_testHelloWorld - 2018.09.19 at 16h 36m 30s.xml">
-      <configuration name="HelloTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 19h 59m 54s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_testHelloWorld - 2018.09.19 at 16h 36m 35s.xml">
-      <configuration name="HelloTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 20h 02m 39s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_testHelloWorld - 2018.09.19 at 16h 36m 44s.xml">
-      <configuration name="HelloTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 20h 03m 03s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_(1) - 2018.09.19 at 16h 36m 49s.xml">
-      <configuration name="HelloTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 20h 03m 27s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_(1) - 2018.09.19 at 16h 39m 05s.xml">
-      <configuration name="HelloTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 20h 03m 39s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_(1) - 2018.09.19 at 16h 40m 25s.xml">
-      <configuration name="HelloTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 20h 03m 56s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_(1) - 2018.09.19 at 16h 48m 56s.xml">
-      <configuration name="HelloTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 20h 14m 42s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloTest_(1) - 2018.09.19 at 17h 02m 44s.xml">
-      <configuration name="HelloTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HelloWorldTest_can_create_a_task_with_a_name - 2018.09.20 at 20h 15m 48s.xml">
+      <configuration name="HelloWorldTest.can_create_a_task_with_a_name" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11122000" />
+    <option name="totallyTimeSpent" value="16501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="999" y="27" width="921" height="1053" extended-state="4" />
+    <frame x="78" y="27" width="1362" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28228572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1534508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24048913" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38717633" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.050660793" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17401215" />
@@ -371,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -385,17 +463,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="30" selection-start-line="23" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/HelloWorldWebTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b74877d1-593a-4456-8d0a-894f2ca6e2bd/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
