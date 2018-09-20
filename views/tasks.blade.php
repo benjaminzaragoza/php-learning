@@ -21,11 +21,11 @@ foreach ($tasks as $task) {
 <ul>
     <?php foreach ($tasks as $task) : ?>
     <li>
-        <?php if ($task['completed'] == true): ?>
+        <?php if ($task->completed == true): ?>
         <strike>
             <?php endif; ?>
-            <?= $task['name']; ?>
-            <?php if ($task['completed'] == true): ?>
+            <?= $task->name; ?>
+            <?php if ($task->completed == true): ?>
         </strike>
         <?php endif; ?>
     </li>
