@@ -10,13 +10,18 @@
 <body>
 <!--
 <ul>
-<?php
-foreach ($tasks as $task) {
-    var_dump($task);
-    echo "<li>$task</li>";
-}
-?>
-</ul>
+    @foreach ($tasks as $task)
+    <li>
+    @if ($task->completed == true)
+        <strike>
+    @endif
+        {{ $task->name }}
+    @if ($task->completed == true)
+        </strike>
+    @endif
+            </li>
+    @endforeach
+        </ul>
 -->
 <ul>
     <?php foreach ($tasks as $task) : ?>
@@ -42,6 +47,5 @@ foreach ($tasks as $task) {
     <li><strike>practicar git</strike></li>
     <li><strike>blasb asdas</strike></li>
 </ul>
-
 </body>
 </html>

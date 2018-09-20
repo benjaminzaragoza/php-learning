@@ -15,7 +15,7 @@ require 'models/Task.php';
 $tasks=[
 
     new Task('Comprar pa ',false),
-    new Task('Comprar llet ',false),
+    new Task('Comprar llet ',true),
     new Task('fer llit ',false)
 
 ];
