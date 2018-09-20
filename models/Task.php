@@ -17,7 +17,7 @@ class Task
      * @param $completed
      */
 
-    public function __construct($name, $completed)
+    public function __construct($name='', $completed=false)
     {
         $this->name = $name; // this->esto,un mateix
         $this->completed=$completed;

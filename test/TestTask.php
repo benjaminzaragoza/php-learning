@@ -9,6 +9,7 @@ class HelloWorldTest extends TestCase
     public function testTaskClass()
     {
         $task = new Task();
+
         $this->assertInstanceOf(Task::class, $task);
     }
 
