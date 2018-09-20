@@ -21,6 +21,6 @@ require 'functions.php';
 //    'mobile'=> '63434512'
 //]
 
-$greeting= hello($_GET);
+$greeting=hello($_GET['greeting']);
 
 require 'views/index.blade.php';
