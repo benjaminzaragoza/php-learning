@@ -5,6 +5,18 @@
 //new Task();
 require 'models/Task.php';
 
+require 'framework/database/connect.php';
+
+$pdo = connect();
+
+$statement = $pdo->prepare('Select * FROM tasks');
+$statement->execute();
+
+$tasks = $statement->fetchAll(PDO::FETCH_CLASS);
+
+require 'views/tasks.blade.php';
+
+
 //task1=['name' => 'Comprar pa ','completed' => false];
 //task2=['name' => 'Comprar llet ','completed' => false];
 //task3=['name' => 'Fer el lit ','completed' => false];
@@ -12,14 +24,34 @@ require 'models/Task.php';
 // array
 
 
-$tasks=[
 
-    new Task('Comprar pa ',false),
-    new Task('Comprar llet ',true),
-    new Task('fer llit ',false)
+////connexio base de dades
+//try{
+//    $pdo = new PDO('mysql:host=127.0.0.1;dbname=php_learning','debian-sys-maint','XZvcnv9GqJ3DXLXl' );
+//}catch(\PDOException $e){
+//    die('Could not connect'.$e);
+//}
+//Consulta Mysql
 
-];
 
+
+//$statement->execute();
+
+//$results = $statement->fetchAll(PDO::FETCH_CLASS,Task::class);
+//
+//var_dump($results);
+
+
+//var_dump($tasks);
+
+//////////////////////////////////////////
+//$tasks=[
+//
+//    new Task('Comprar pa ',false),
+//    new Task('Comprar llet ',true),
+//    new Task('fer llit ',false)
+//
+//];
 //$tasks = [
 //    [
 //        'name' => 'Comprar pa ',
@@ -34,5 +66,3 @@ $tasks=[
 //        'completed' => false
 //    ]
 //];
-
-require 'views/tasks.blade.php';
