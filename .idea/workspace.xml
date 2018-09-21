@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3512cf6a-b5e7-48c9-a3c9-a6b06d27271a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/boostrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/boostrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/database/connections.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.php" beforeDir="false" afterPath="$PROJECT_DIR$/people.php" afterDir="false" />
-    </list>
+    <list default="true" id="3512cf6a-b5e7-48c9-a3c9-a6b06d27271a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +29,7 @@
     <session id="855641577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.8" value="2" />
@@ -403,7 +397,7 @@
       <workItem from="1537436184494" duration="1021000" />
       <workItem from="1537437237037" duration="24000" />
       <workItem from="1537461378491" duration="9861000" />
-      <workItem from="1537535215448" duration="8847000" />
+      <workItem from="1537535215448" duration="9397000" />
     </task>
     <servers />
   </component>
@@ -440,11 +434,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29830000" />
+    <option name="totallyTimeSpent" value="30380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="78" y="27" width="1362" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19162996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
