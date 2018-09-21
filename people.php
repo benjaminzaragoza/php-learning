@@ -1,11 +1,13 @@
 <?php
+
+require 'framework/boostrap.php';
 require 'models/Person.php';
-require 'framework/database/Connection.php';
-require 'framework/database/queryBuilder.php';
 
 
-$pdo = connect();
-$people = fetchAll($pdo, 'people');
+$people = Person::all();
+
+//$pdo = connect();
+//$people = fetchAll($pdo, 'people');
 require 'views/people.blade.php';
 
 

@@ -8,7 +8,6 @@
 
 class  Person
 {
- // Constructor
     public $nom;
     public  $anys;
     public $viu_mort;
@@ -30,6 +29,10 @@ class  Person
     {
         $this->viu_mort = true;
     }
+    public static function all (){
+        $pdo  = Connection::connect();
+        return QueryBuilder::fetchAll($pdo, 'people');
 
+    }
 
 }
