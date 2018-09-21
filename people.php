@@ -1,6 +1,6 @@
 <?php
 require 'models/Person.php';
-require 'framework/database/connect.php';
+require 'framework/database/Connection.php';
 require 'framework/database/queryBuilder.php';
 
 

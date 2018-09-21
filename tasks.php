@@ -3,18 +3,29 @@
 //require 'models/Task.php';
 //
 //new Task();
+require 'framework/boostrap.php';
 require 'models/Task.php';
 
-require 'framework/database/connect.php';
 
-$pdo = connect();
-
-$statement = $pdo->prepare('Select * FROM tasks');
-$statement->execute();
-
-$tasks = $statement->fetchAll(PDO::FETCH_CLASS);
+$tasks = Task::all();
 
 require 'views/tasks.blade.php';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //task1=['name' => 'Comprar pa ','completed' => false];
@@ -22,8 +33,6 @@ require 'views/tasks.blade.php';
 //task3=['name' => 'Fer el lit ','completed' => false];
 //$tasks = [$task1, task2, task3];
 // array
-
-
 
 ////connexio base de dades
 //try{

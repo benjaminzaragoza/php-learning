@@ -37,15 +37,5 @@
     <?php endforeach;?>
 </ul>
 
-<hr>
-<h1>Tasks</h1>
-<p>les meves tasques pendets son</p>
-<ul>
-    <li>compra pa</li>
-    <li>compra llet</li>
-    <li>practicar php</li>
-    <li><strike>practicar git</strike></li>
-    <li><strike>blasb asdas</strike></li>
-</ul>
 </body>
 </html>

@@ -2,10 +2,10 @@
 
 function fetchAll($connection, $table){
 
-$statement = $connection->prepare("Select * FROM $table");
+    $statement = $connection->prepare("SELECT * FROM $table;");
 
-$statement->execute();
+    $statement->execute();
 
-return $statement->fetchAll(PDO::FETCH_CLASS);
+    return $statement->fetchAll(PDO::FETCH_CLASS);
 
 }

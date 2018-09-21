@@ -20,3 +20,4 @@ HTTP REQUEST (TIPUS/METHODS)
 -DELETE
 -PUT
 
+Passar contrasenya a fitxer config -> connections
