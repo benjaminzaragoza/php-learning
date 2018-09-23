@@ -1,19 +1,18 @@
 <?php
 
-require 'framework/boostrap.php';
+$database = require 'framework/boostrap.php';
 require 'models/Person.php';
-
-
-$people = Person::all();
-
-//$pdo = connect();
-//$people = fetchAll($pdo, 'people');
+$people = $database->selectAll('people');
 require 'views/people.blade.php';
 
 
+//require 'models/Person.php';
+//
+//
+//$people = Person::all();
 
-//$people = fetchAll("people");
-
+//$pdo = connect();
+//$people = fetchAll($pdo, 'people');
 //
 //try{
 //    $pdo = new PDO('mysql:host=127.0.0.1;dbname=php_learning','debian-sys-maint','XZvcnv9GqJ3DXLXl' );

@@ -19,12 +19,12 @@
 require 'functions.php';
 hello('Pepe');
 
-echo 'Hello World'; // Sempre que podrem escollir posarem cometes simples
-echo "Hello World" ; //
+//echo 'Hello World'; // Sempre que podrem escollir posarem cometes simples
+//echo "Hello World" ; //
 
 //$gretting=pepe;
 //echo 'Hello '.$gretting;
 //echo "Hello $gretting"; //hola pepe
 //echo 'Hello $greeting'; //hola greating
-echo "hello$grettingProva"; //Erro $$variable $greetingProva no found
-echo "hello${gretting}Prova"; //hellopepeprova
+//echo "hello$grettingProva"; //Erro $$variable $greetingProva no found
+//echo "hello${gretting}Prova"; //hellopepeprova

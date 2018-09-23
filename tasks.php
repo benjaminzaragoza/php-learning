@@ -3,29 +3,13 @@
 //require 'models/Task.php';
 //
 //new Task();
-require 'framework/boostrap.php';
-require 'models/Task.php';
+//require 'framework/boostrap.php';
+//require 'models/Task.php';
+//$tasks = Task::all();
 
-
-$tasks = Task::all();
-
+$database = require 'framework/boostrap.php';
+$tasks = $database->selectAll('tasks');
 require 'views/tasks.blade.php';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //task1=['name' => 'Comprar pa ','completed' => false];

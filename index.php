@@ -1,8 +1,5 @@
 <?php
 
-//var_dump($_GET['gre']);
-//die();
-
 //Array/Vector
 
 //$platan = 'platan';
