@@ -1,7 +1,7 @@
 <?php
 
 return[
-
+//$config =[
     'database' => [
         'name' => 'php_learning',
         'username' => 'debian-sys-maint',
