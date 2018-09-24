@@ -6,12 +6,13 @@
 //require 'framework/boostrap.php';
 //require 'models/Task.php';
 
-$database = require 'framework/boostrap.php';
+//$database = require 'framework/boostrap.php';
 
-//$tasks = Task::all();
+
 
 $tasks = $database->selectAll('tasks');
-require 'views/tasks.blade.php';
+
+require view('tasks',$tasks);
 
 
 ////connexio base de dades

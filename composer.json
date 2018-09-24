@@ -1,5 +1,22 @@
 {
+    "name": "benjamin/php-learning",
+    "description": "bla",
+    "authors": [
+        {
+            "name": "benjaminzaragozacd",
+            "email": "benjaminzaragoza@iesebre.com"
+        }
+    ],
     "require": {
         "phpunit/phpunit": "^7.3"
+    },
+    "autoload": {
+      "classmap": [
+        "./"
+      ],
+      "files": [
+        "./helpers.php"
+        ]
+
     }
 }
