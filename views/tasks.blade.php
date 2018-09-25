@@ -1,38 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tasques</title>
-</head>
-<body>
+
 <!--
 <ul>
-    @foreach ($tasks as $task)
-    <li>
-    @if ($task->completed == true)
-        <strike>
-    @endif
-        {{ $task->name }}
-    @if ($task->completed == true)
-        </strike>
-    @endif
-            </li>
-    @endforeach
-        </ul>
 -->
+<?php require  'partials/header.blade.php' ?>
 
-<nav>
-    <ul>
-    <li><a href="/tasks">Tasques</a></li>
-    <li><a href="/people">Persones</a></li>
-    <li><a href="/lessons">Lliçons</a></li>
-    <li><a href="/contact">Contacte</a></li>
-    <li><a href="/about">Sobre nosaltres</a></li>
-    </ul>
-</nav>
 <ul>
     <?php foreach ($tasks as $task) : ?>
     <li>
@@ -47,5 +18,43 @@
     <?php endforeach;?>
 </ul>
 
-</body>
-</html>
+<v-card>
+    <v-toolbar color="indigo" dark>
+        <v-toolbar-side-icon></v-toolbar-side-icon>
+
+        <v-toolbar-title>Inbox</v-toolbar-title>
+
+        <v-spacer></v-spacer>
+
+        <v-btn icon>
+            <v-icon>search</v-icon>
+        </v-btn>
+
+        <v-btn icon>
+            <v-icon>more_vert</v-icon>
+        </v-btn>
+    </v-toolbar>
+    <v-list>
+        <v-list-tile
+                v-for="item in items"
+                :key="item.title"
+                avatar
+                @click=""
+        >
+            <v-list-tile-action>
+                <v-icon v-if="item.icon" color="pink">star</v-icon>
+            </v-list-tile-action>
+
+            <v-list-tile-content>
+                <v-list-tile-title v-text="item.title"></v-list-tile-title>
+            </v-list-tile-content>
+
+            <v-list-tile-avatar>
+                <img :src="item.avatar">
+            </v-list-tile-avatar>
+        </v-list-tile>
+        <?php endforeach;?>
+
+    </v-list>
+</v-card>
+<?php require  'partials/footer.blade.php'; ?>
