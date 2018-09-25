@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 require 'framework/boostrap.php';
 
 //require direct($_SERVER['REQUEST_URI']);
-require Router::direct($_SERVER['REQUEST_URI']);
+require direct($_SERVER['REQUEST_URI']);
 
 // MVC: Model Vista Controlador
 

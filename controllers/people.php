@@ -4,13 +4,13 @@
 //require 'models/Person.php';
 //$people = $database->selectAll('people');
 
-$pdo = connect();
-$people = fetchAll($pdo,'people');
-require 'views/people.blade.php';
+//$pdo = connect();
+//$people = fetchAll($pdo,'people');
+//require 'views/people.blade.php';
 
-//$people = Person::all();
-//
-//require view('people',$people);
+$people = Person::all();
+
+require view('people',$people);
 
 //require 'models/Person.php';
 //

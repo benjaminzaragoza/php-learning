@@ -11,11 +11,11 @@
 
 <nav>
     <ul>
-        <li><a href="/tasks.php">Tasques</a></li>
-        <li><a href="/people.php">Persones</a></li>
-        <li><a href="/lessons.php">Lliçons</a></li>
-        <li><a href="/contact.php">Contacte</a></li>
-        <li><a href="/about.php">Sobre nosaltres</a></li>
+        <li><a href="/tasks">Tasques</a></li>
+        <li><a href="/people">Persones</a></li>
+        <li><a href="/lessons">Lliçons</a></li>
+        <li><a href="/contact">Contacte</a></li>
+        <li><a href="/about">Sobre nosaltres</a></li>
     </ul>
 </nav>
 <h1>ABOUT</h1>
