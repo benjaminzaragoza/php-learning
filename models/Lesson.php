@@ -17,4 +17,9 @@ class Lesson
     {
         $this->name = $name;
     }
+    public static function all (){
+        $pdo  = Connection::connect();
+        return QueryBuilder::fetchAll($pdo,'lessons');
+
+    }
 }
