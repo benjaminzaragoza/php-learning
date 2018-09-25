@@ -29,7 +29,7 @@ class Task
     }
     public static function all (){
         $pdo  = Connection::connect();
-        return QueryBuilder::fetchAll($pdo, 'Tasks');
+        return QueryBuilder::fetchAll($pdo, 'tasks');
 
     }
 
