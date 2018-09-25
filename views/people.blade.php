@@ -23,6 +23,15 @@
     @endforeach
         </ul>
 -->
+{{--<nav>--}}
+    {{--<ul>--}}
+        {{--<li><a href="/tasks.php">Tasques</a></li>--}}
+        {{--<li><a href="/people.php">Persones</a></li>--}}
+        {{--<li><a href="/lessons.php.php">Lliçons</a></li>--}}
+        {{--<li><a href="/contact.php">Contacte</a></li>--}}
+        {{--<li><a href="/about.php">Sobre nosaltres</a></li>--}}
+    {{--</ul>--}}
+{{--</nav>--}}
 <ul>
     <?php foreach ($people as $person) : ?>
     <li>

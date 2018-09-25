@@ -4,6 +4,11 @@ require 'vendor/autoload.php';
 
 require 'framework/boostrap.php';
 
+//require direct($_SERVER['REQUEST_URI']);
+require Router::direct($_SERVER['REQUEST_URI']);
+
+// MVC: Model Vista Controlador
+
 //FC UN SOL FITXER PHP QUE EXECUTA TOTA LA APLICACIO
 //SEMPRE SE EXECUTA PRIMER EL index.php
 
@@ -24,5 +29,5 @@ require 'framework/boostrap.php';
 //require direct($uri);
 // Metode dins classe (funcio dins una classe el seu nom tecnic es metode)
 //require  $router -> direct($uri);
-require direct($_SERVER['REQUEST_URI']);
+
 

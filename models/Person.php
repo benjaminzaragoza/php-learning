@@ -29,10 +29,10 @@ class  Person
     {
         $this->viu_mort = true;
     }
-    public static function all (){
-        $pdo  = Connection::connect();
-        return QueryBuilder::fetchAll($pdo,'People');
-
-    }
+//    public static function all (){
+//        $pdo  = Connection::connect();
+//        return QueryBuilder::fetchAll($pdo,'People');
+//
+//    }
 
 }

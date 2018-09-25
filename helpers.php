@@ -1,7 +1,7 @@
 <?php
 
-function view($view){
-    return "views/view.blade.php";
+function view($view) {
+    return "views/$view.blade.php";
 }
 function direct($uri){
     $routes = [

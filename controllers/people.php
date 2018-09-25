@@ -1,10 +1,16 @@
 <?php
 
-$database = require 'framework/boostrap.php';
-require 'models/Person.php';
-$people = $database->selectAll('people');
+//$database = require 'framework/boostrap.php';
+//require 'models/Person.php';
+//$people = $database->selectAll('people');
+
+$pdo = connect();
+$people = fetchAll($pdo,'people');
 require 'views/people.blade.php';
 
+//$people = Person::all();
+//
+//require view('people',$people);
 
 //require 'models/Person.php';
 //

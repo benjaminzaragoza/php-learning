@@ -1,16 +1,7 @@
 <?php
-//
-//require 'models/Task.php';
-//
-//new Task();
-//require 'framework/boostrap.php';
-//require 'models/Task.php';
+//$tasks = $database->selectAll('tasks');
 
-//$database = require 'framework/boostrap.php';
-
-
-
-$tasks = $database->selectAll('tasks');
+$tasks = Task::all();
 
 require view('tasks',$tasks);
 
