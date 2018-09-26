@@ -2,8 +2,8 @@
 </v-layout>
 </v-container>
 </v-content>
-<v-footer color="indigo" app>
-    <span class="white--text"> Created by Benjamin Zaragoza &copy;2018 All rights reserved</span>
+<v-footer color="blue" app>
+    <span class="white--text"> Created by Benjamin Zaragoza Pla &copy;2018 All rights reserved</span>
 </v-footer>
 </v-app>
 </div>
