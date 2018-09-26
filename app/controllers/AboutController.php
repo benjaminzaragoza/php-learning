@@ -3,7 +3,7 @@
 class AboutController{
     public function show ()
     {
-        require  view(view(about));
+        require view('about');
 
     }
     //CRUD -> CREATE RETRIEVE UPDATE DELETE
