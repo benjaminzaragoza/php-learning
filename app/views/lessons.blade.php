@@ -1,4 +1,4 @@
-<?php require  'partials/header.blade.php'; ?>
+<?php require 'partials/header.blade.php'; ?>
 
 <v-card>
     <v-toolbar color="red" dark>
@@ -38,4 +38,4 @@
 
     </v-list>
 </v-card>
-<?php require  'partials/footer.blade.php'; ?>
+<?php require 'partials/footer.blade.php'; ?>

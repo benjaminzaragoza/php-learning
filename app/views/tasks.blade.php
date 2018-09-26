@@ -25,7 +25,6 @@
         <v-divider></v-divider>
 
         <?php foreach ($tasks as $task) : ?>
-
         <v-list-tile>
 
             <v-list-tile-avatar>

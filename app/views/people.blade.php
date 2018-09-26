@@ -1,4 +1,4 @@
-<?php require  'partials/header.blade.php'; ?>
+<?php require 'partials/header.blade.php'; ?>
 
 <body>
 <!--
@@ -62,5 +62,5 @@
 
     </v-list>
 </v-card>
-<?php require  'partials/footer.blade.php'; ?>
+<?php require 'partials/footer.blade.php'; ?>
 
