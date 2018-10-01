@@ -5,10 +5,7 @@ $tasks = Task::all();
 
 require view('tasks');
 
-
 //Consulta Mysql
-
-
 
 //$statement->execute();
 

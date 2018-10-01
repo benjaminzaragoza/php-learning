@@ -7,7 +7,7 @@ require 'framework/boostrap.php';
 //require direct($_SERVER['REQUEST_URI']);
 //router = new Router
 
-Router::direct($_SERVER['REQUEST_URI']);
+Router::direct($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD']);
 
 
 // MVC: Model Vista Controlador

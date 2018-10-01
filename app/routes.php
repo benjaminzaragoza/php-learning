@@ -1,6 +1,9 @@
 <?php
 
+$router = new Router();
+
 return [
+    '' => 'app/controllers/PagesController',
     '/' => 'app/controllers/tasks.php',
     '/tasks' => 'app/controllers/tasks.php',
     '/people' => 'app/controllers/people.php',
