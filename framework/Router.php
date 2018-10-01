@@ -8,52 +8,38 @@
 class Router
 {
     private static $routes = [];
-
     public static function routes()
     {
         return self::$routes;
     }
-
     public static function define($routes)
     {
-        self::$routes= $routes;
+        self::$routes=$routes;
     }
-
-    public static function direct($uri,$requestType)
+    public static function execute($controller,$method)
     {
-
-        if (!$uri) return 'app/controllers/tasks.php';
-        echo 866;
-        //      NO ESTATIC  $this->routes; STATIC self::$routes
+        $controller = new $controller;
+        $controller->$method;
+    }
+    public static function direct($uri, $requestType)
+    {
         if (array_key_exists($uri, self::$routes[$requestType])) {
-
-
-//        die(self::$routes[$requestType][$uri]);
-        return self::callAction(
-            explode('@', self::routes[$requestType][$uri])
-
-        );
+            return self::callAction(
+                ...explode('@', self::$routes[$requestType][$uri]['controller'])
+            );
         }
-        echo 1;
-        throw new Exception('La pàgina que demaneu no existeix');
+        throw new Exception('Ruta no definida per a esta URI.');
     }
-
-    protected function callAction($controller,$action)
+    protected static function callAction($controller, $action)
     {
-            if(!method_exists($controller,$action)){
-                throw new Exception(
-                    "{$controller} does not respond to the action "
-                );
-            }
-
-return (new $controller)->$action();
+        if (! method_exists($controller, $action)){
+            throw new Exception(
+                "El {$controller} no respon a l'acció {$action}"
+            );
+        }
+        return (new $controller)->$action();
     }
-    public function execute($controller,$method)
-    {
-        $controller=new $controller();
-        $controller->$method();
-        
-    }
+}
 
 //                    '/' => 'controllers/tasks.php',
 //            '/tasks' => 'controllers/tasks.php',
@@ -64,4 +50,3 @@ return (new $controller)->$action();
 //
 //    ];
 
-}
