@@ -5,6 +5,9 @@
  * Date: 20/09/18
  * Time: 19:38
  */
+namespace App\Models;
+use Connection;
+use QueryBuilder;
 
 class  Person
 {

@@ -6,6 +6,10 @@
  * Time: 19:38
  */
 
+namespace App\Models;
+use Connection;
+use QueryBuilder;
+
 class Lesson
 {
     public $name;
@@ -17,9 +21,9 @@ class Lesson
     {
         $this->name = $name;
     }
-    public static function all (){
-        $pdo  = Connection::connect();
+    public static function all()
+    {
+        $pdo = Connection::connect();
         return QueryBuilder::fetchAll($pdo,'lessons');
-
     }
 }

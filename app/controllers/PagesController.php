@@ -1,6 +1,9 @@
 <?php
 
-
+namespace App\Controllers;
+use App\Models\Lesson;
+use App\Models\Person;
+use App\Models\Task;
 class PagesController
 {
     public function tasks()
@@ -18,13 +21,13 @@ class PagesController
         $lessons = Lesson::all();
         require view('lessons');
     }
-    public function contact()
-    {
-        require view('contact');
-    }
     public function about()
     {
         require view('about');
+    }
+    public function contact()
+    {
+        require view('contact');
     }
 
 }

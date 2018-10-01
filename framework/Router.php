@@ -5,6 +5,7 @@
  * Date: 25/09/18
  * Time: 19:16
  */
+namespace App\Framework;
 class Router
 {
     private static $routes = [];
@@ -32,12 +33,14 @@ class Router
     }
     protected static function callAction($controller, $action)
     {
+        $controller = "App\\Controllers\\{$controller}";
+        $controller = new $controller;
         if (! method_exists($controller, $action)){
             throw new Exception(
                 "El {$controller} no respon a l'acció {$action}"
             );
         }
-        return (new $controller)->$action();
+        return $controller->$action();
     }
 }
 
