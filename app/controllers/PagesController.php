@@ -3,14 +3,9 @@
 namespace App\Controllers;
 use App\Models\Lesson;
 use App\Models\Person;
-use App\Models\Task;
 class PagesController
 {
-    public function tasks()
-    {
-        $tasks = Task::all();
-        require view('tasks');
-    }
+
     public function people()
     {
         $people = Person::all();

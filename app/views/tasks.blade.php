@@ -16,7 +16,13 @@
             <v-icon>search</v-icon>
         </v-btn>
     </v-toolbar>
-
+    <!-- Formulari inserció de dades -->
+    <form action="/tasks" method="post">
+        <label for="">Tasca:</label>
+        <input type="text" name="name" required>
+        <button type="submit">Afegir Tasca</button>
+    </form>
+    <!---->
     <v-list two-line>
         <v-subheader>
             Tasques

@@ -36,4 +36,9 @@ class Task
 
     }
 
+    static function create($table, $cols){
+        $pdo = Connection::connect();
+        QueryBuilder::insert($pdo, $table, $cols);
+    }
+
 }
